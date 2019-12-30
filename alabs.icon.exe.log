@@ -1,0 +1,88 @@
+2019-09-09 14:40:57,145-alabs.icon.exe.log-INFO-vvargs.py:575-[5132] args={'config_file': 'icon.yaml',
+ 'css': None,
+ 'dumpspec': None,
+ 'errfile': None,
+ 'help': False,
+ 'infile': None,
+ 'logfile': None,
+ 'loglevel': None,
+ 'outfile': None,
+ 'output_file': 'icon.png',
+ 'statfile': None,
+ 'ttf': None,
+ 'verbose': 0}: opened
+2019-09-09 14:40:57,147-alabs.icon.exe.log-INFO-__init__.py:117-[5132] >>>starting...
+2019-09-09 14:40:57,248-alabs.icon.exe.log-INFO-__init__.py:128-[5132] >>>end...
+2019-09-09 14:54:13,994-alabs.icon.exe.log-INFO-vvargs.py:575-[7472] args={'config_file': 'icon.yaml',
+ 'css': None,
+ 'dumpspec': None,
+ 'errfile': None,
+ 'help': False,
+ 'infile': None,
+ 'logfile': None,
+ 'loglevel': None,
+ 'outfile': None,
+ 'output_file': 'icon.png',
+ 'statfile': None,
+ 'ttf': None,
+ 'verbose': 0}: opened
+2019-09-09 14:54:13,994-alabs.icon.exe.log-INFO-__init__.py:117-[7472] >>>starting...
+2019-09-09 14:54:14,041-alabs.icon.exe.log-INFO-__init__.py:128-[7472] >>>end...
+2019-12-09 14:12:30,687-alabs.icon.exe.log-INFO-vvargs.py:575-[4012] args={'config_file': 'icon.yaml',
+ 'css': None,
+ 'dumpspec': None,
+ 'errfile': None,
+ 'help': False,
+ 'infile': None,
+ 'logfile': None,
+ 'loglevel': None,
+ 'outfile': None,
+ 'output_file': 'icon.png',
+ 'statfile': None,
+ 'ttf': None,
+ 'verbose': 0}: opened
+2019-12-09 14:12:30,688-alabs.icon.exe.log-INFO-__init__.py:117-[4012] >>>starting...
+2019-12-09 14:12:30,730-alabs.icon.exe.log-ERROR-__init__.py:124-[4012] alabs.icon Error: Image from file "my-icon.png" does not exists
+2019-12-09 14:12:30,730-alabs.icon.exe.log-INFO-__init__.py:128-[4012] >>>end...
+2019-12-09 14:12:30,745-alabs.icon.exe.log-ERROR-vvargs.py:140-[4012] 'do_icon
+(Namespace(config_file='icon.yaml', css=None, dumpspec=None, errfile=None, help=False, infile=None, logfile=None, loglevel=None, outfile=None, output_file='icon.png', statfile=None, ttf=None, verbose=0),(),{})
+Error Image from file "my-icon.png" does not exists
+Error Stack: Traceback (most recent call last):
+  File "c:\users\jeon\ps3\lib\site-packages\alabs\common\util\vvargs.py", line 126, in new_function
+    r = original_function(mcxt, argspec, *args, **kwargs)
+  File "c:\users\jeon\ps3\lib\site-packages\alabs\icon\__init__.py", line 120, in do_icon
+    r = ig.gen()
+  File "c:\users\jeon\ps3\lib\site-packages\alabs\icon\__init__.py", line 75, in gen
+    raise IOError('Image from file "%s" does not exists' % img_file)
+OSError: Image from file "my-icon.png" does not exists
+
+2019-12-09 14:14:29,147-alabs.icon.exe.log-INFO-vvargs.py:575-[6532] args={'config_file': 'icon.yaml',
+ 'css': None,
+ 'dumpspec': None,
+ 'errfile': None,
+ 'help': False,
+ 'infile': None,
+ 'logfile': None,
+ 'loglevel': None,
+ 'outfile': None,
+ 'output_file': 'icon.png',
+ 'statfile': None,
+ 'ttf': None,
+ 'verbose': 0}: opened
+2019-12-09 14:14:29,147-alabs.icon.exe.log-INFO-__init__.py:117-[6532] >>>starting...
+2019-12-09 14:14:29,174-alabs.icon.exe.log-INFO-__init__.py:128-[6532] >>>end...
+2019-12-09 14:14:56,476-alabs.icon.exe.log-INFO-vvargs.py:575-[11552] args={'config_file': 'icon.yaml',
+ 'css': None,
+ 'dumpspec': None,
+ 'errfile': None,
+ 'help': False,
+ 'infile': None,
+ 'logfile': None,
+ 'loglevel': None,
+ 'outfile': None,
+ 'output_file': 'icon.png',
+ 'statfile': None,
+ 'ttf': None,
+ 'verbose': 0}: opened
+2019-12-09 14:14:56,477-alabs.icon.exe.log-INFO-__init__.py:117-[11552] >>>starting...
+2019-12-09 14:14:56,497-alabs.icon.exe.log-INFO-__init__.py:128-[11552] >>>end...
